@@ -8,7 +8,7 @@ function GifScreen({defaultQuery}) {
     const [gifs, setGifs] = useState([]);
 
     useEffect(() => {
-        console.log("INI DEFASULT Q :"+defaultQuery)
+        console.log("INI DEFAULT Q :"+defaultQuery)
         if(defaultQuery) {
             handleSearch(defaultQuery)
         } else {
